@@ -5,7 +5,8 @@
 
 
 ## Release 0: Student Roster Schema
-<!-- https://github.com/Spiritninja66/phase_0_unit_3/blob/master/week_7/2_designing_schemas/img/1.jpg -->
+<!-- display your image inline here -->
+ <img src="https://github.com/Spiritninja66/phase_0_unit_3/blob/master/week_7/2_designing_schemas/img/1.jpg">
 
 
 ## Release 1: One to Many Schema
