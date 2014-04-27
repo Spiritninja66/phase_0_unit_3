@@ -27,3 +27,5 @@ Description of what you're modeling:
 <!-- display your many-to-many image inline here -->
 
 ## Release 5: Reflection
+<!-- This was an interesting assignment. The toughest part was getting used to the program and how to use it.
+after playing aroudn with it, I feel I have the hang of it. The graphs will be a great representation of data for later on.  -->
