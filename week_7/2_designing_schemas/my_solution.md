@@ -6,28 +6,28 @@
 
 ## Release 0: Student Roster Schema
 <!-- display your image inline here -->
- <img src="https://github.com/Spiritninja66/phase_0_unit_3/blob/master/week_7/2_designing_schemas/img/1.jpg">
+<img src = "img/1.jpg"/>
 
 
 ## Release 1: One to Many Schema
 <!-- display your image inline here -->
- <img src="https://github.com/Spiritninja66/phase_0_unit_3/blob/master/week_7/2_designing_schemas/img/2.jpg">
+ <img src = "img/2.jpg"/>
 
 
 ## Release 2: One to One Schema
 <!-- display your image inline here -->
- <img src="https://github.com/Spiritninja66/phase_0_unit_3/blob/master/week_7/2_designing_schemas/img/3.jpg">
+<img src = "img/3.jpg"/>
 
 
 ## Release 3: Many to Many Schema
 <!-- display your image inline here -->
- <img src="https://github.com/Spiritninja66/phase_0_unit_3/blob/master/week_7/2_designing_schemas/img/4.jpg">
+ <img src = "img/4.jpg"/>
 
 ## Release 4: Design your own Schema
 Description of what you're modeling: 
 
 <!-- display your one-to-one image inline here -->
- <img src="https://github.com/Spiritninja66/phase_0_unit_3/blob/master/week_7/2_designing_schemas/img/5.jpg">
+<img src = "img/5.jpg"/>
 <!-- display your many-to-many image inline here -->
 
 

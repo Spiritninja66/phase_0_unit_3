@@ -12,7 +12,7 @@ each user name is displayed with their tweet. Other users are then able to favor
 
 ## Release 3: Schema Design
 <!-- Include your image (inline) of your schema -->
- <img src="https://github.com/Spiritninja66/phase_0_unit_3/blob/master/week_7/3_model_one_to_many_solo_challenge/img/solo.jpg">
+ <img src = "img/solo.jpg"/>
 
 ## Release 4: SQL Statements
 <!-- Include your SQL Statements. How can you make markdown files show blocks of code? -->
