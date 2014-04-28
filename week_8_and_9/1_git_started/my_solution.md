@@ -50,7 +50,10 @@ This will show the working tree status.
 - Push files to a remote repository
 - Fetch changes
 - Commit locally
-
+## Cheat Sheet
+git add "file name"
+git commit "File name"
+git push "File name"
 ## review
 This all seemed pretty straight forward, but I feel I will get confused later on even with understanding
 the basic commands. the locations of folders and updating them if everything is unorganized. I probably need to organize things more. Creating the folders and files within terminal might help. entering "git" into terminal is useful, it does give me the definitions of most of the commands needed. I just need more practice. 
