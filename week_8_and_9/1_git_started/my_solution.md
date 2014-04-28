@@ -8,40 +8,41 @@ will wait to be committed, or put into an actual train, where the changes will b
 the internet.
 
 #### branch
-<!-- Your defnition here -->
+This allows you to list, create, and delete branches.
 
 #### checkout
-<!-- Your defnition here -->
+This allows you to look at 
 
 #### clone
-<!-- Your defnition here -->
+git clone allows you to clone a repository into a new directory.
 
 #### commit
 git commit is used to put your updates and files into your repository over the internet. This is when the
-train leves the station.
+train leves the station. git commit -m"state status changes here"
 
 #### fetch
-<!-- Your defnition here -->
+This will allow you to download objects and refs from another repository.
 
 #### log
-<!-- Your defnition here -->
+git log works like a journal and list the time, author and changes made to the file.
 
 #### merge
-<!-- Your defnition here -->
+This will join two or more development histories together.
 
 #### pull
-<!-- Your defnition here -->
+git pull allows you to pull changes others may have made to the file.
 
 #### push
-<!-- Your defnition here -->
+git push tells GIT where to put out commits. git push -u origin master.
 
 #### reset
-<!-- Your defnition here -->
+ Reset current HEAD to the specified state
 
 #### rm
-<!-- Your defnition here -->
+git rm would remove files from the working tree and from the index.
 
 #### status
+This will show the working tree status.
 
 
 ## Release 3: Git Workflow
