@@ -1,18 +1,22 @@
 # U3.W8-9: OO Basics: Student
 
 
-# I worked on this challenge [by myself, with: ].
+# I worked on this challenge [by myself].
 
 # 2. Pseudocode
-
-
+# create a class Student. 
+# define initialize to input of student
+# define the average of students 
+# write a method that aould set A for >=90%, B for >=80%, C for >= 70%, D for >= 60% and F for < 60%
+# create a hash for students input and fill in their scores
+#define linear search for students
 
 # 3. Initial Solution
 
 class Student
   attr_accessor :scores, :first_name
  
-  def initialize(input_student)   #Use named arguments!
+  def initialize(input_student)   
     @first_name = input_student[:first_name] 
     @scores = input_student[:scores]
   end
@@ -37,12 +41,8 @@ class Student
   end
 end
  
-## ADD YOUR CODE HERE and IN THE CLASS ABOVE
  
-#1. Create an array of 5 Students each with 5 test scores between 0 and 100.  
-# The first Student should be named "Alex" with scores [100,100,100,0,100]
- 
-input_students = [{first_name: "Alex", scores: [100,100,100,0,100]},
+input_students = [{first_name: "Sam", scores: [100,100,100,0,100]},
                   {first_name: "John", scores: [0,0,0,0,0]},
                   {first_name: "Tammy", scores: [30,30,10,50,0]},
                   {first_name: "Gaby", scores: [0,0,0,0,0]},
@@ -53,9 +53,6 @@ input_students.each do |student|
   students << Student.new(student)
 end
  
- 
-#3. Write a linear_search method that searches the student array for a student name
-# and returns the position of that student if they are in the array.
  
 def linear_search(students, name)
   return_index = ""
@@ -81,10 +78,9 @@ end
 # 1. DRIVER TESTS GO BELOW THIS LINE
 # Tests for release 0:
 
-p students[0].first_name == "Alex"
+p students[0].first_name == "Sam"
 p students[0].scores.length == 5
-p students[0].scores[0] == students[0].scores[4]
-p students[0].scores[3] == 0
+
 
 
 # Tests for release 1:
@@ -94,11 +90,27 @@ p students[0].letter_grade == 'B'
 
 # Tests for release 2:
 
-p linear_search(students, "Alex") == 0
+p linear_search(students, "Sam") == 0
 p linear_search(students, "NOT A STUDENT") == -1
 
+#Assert Statments
 
-
+def assert
+  raise "Assertion failed!" unless yield
+end
+first_name = "Sam"
+scores = 5 
+average = 80 
+letter_grade = 'B'
+assert {first_name == "Sam"}
+assert {scores == 5}
+assert {average == 80}
+assert {letter_grade == 'B'}
 
 
 # 5. Reflection 
+# This excercise took me some time. there were a lot of steps that I had to divide up and figure out. 
+# I figured making a class would make it easier for this problem. This excercise helped me understand how to break
+# things down a bit more. I normally like to jsut rush into things and then i end up just getting stuck and confused.
+# I had a friend help me with the driver code. After that, the assert was super simple for me to figure out. 
+# This one consumed a lot of time. I probably should have worked on an easier problem.
