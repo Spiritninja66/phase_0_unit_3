@@ -10,9 +10,28 @@
 # 3. Initial Solution
 
 def super_fizzbuzz(array)
-
-
-end
+  
+  #It should return a "fizzbuzzed" Array, i.e., the array is identical to the input with the following substitutions:
+ 
+  array.each do |number|
+  
+  #Multiples of 3 should be replaced with the string "Fizz"
+  #Multiples of 5 should be replaced with the string "Buzz"
+  #Multiples of 15 should be replaced with the string "FizzBuzz"
+    if number % 3 == 0
+      number = "Fizz"
+    elsif
+    number % 5 == 0
+      number = "Buzz"
+    elsif
+    number % 15 == 0
+      number = "FizzBuzz"
+    end#if
+  
+  end#each
+  
+  return array
+end#def
 
 
 

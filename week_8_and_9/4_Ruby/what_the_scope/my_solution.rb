@@ -27,6 +27,17 @@ class Person
     end
   end
 end
+benny = Person.new
+
+puts $var_1.inspect
+# puts benny.var_2.inspect
+puts benny.var_3.inspect
+puts benny.var_4.inspect
+# puts benny.var_5.inspect
+# puts benny.var_6.inspect
+# puts benny.var_7.inspect
+# puts benny.var_8.inspect
+# puts benny.var_9.inspect
 
 # 3. Modified Code (with scope identified as comments)
 
