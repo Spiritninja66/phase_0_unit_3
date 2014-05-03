@@ -55,6 +55,15 @@ for (i = 0; i<item.length; i++){
 
 
 // 1. DRIVER TESTS/ASSERT STATEMENTS GO BELOW THIS LINE
+new_list=GroceryList.new("milk", "cookies", "ice cream")
+puts new_list.list == ["milk", "cookies", "ice cream"]
+new_list.add_items("bananas", "apples")
+puts new_list.list==["milk", "cookies", "ice cream", "bananas", "apples"]
+new_list.delete_item("ice cream")
+puts new_list.list==["milk", "cookies", "bananas", "apples"]
+new_list.sort_list
+puts new_list.list==["apples", "bananas", "cookies", "milk" ]
+puts new_list.display 
 
 
 

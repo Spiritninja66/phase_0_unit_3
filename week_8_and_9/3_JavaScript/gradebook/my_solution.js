@@ -1,15 +1,15 @@
-/*
-U3.W8-9: Gradebook from Names and Scores
 
-You will work with the following two variables.  The first, students, holds the names of four students.  
-The second, scores, holds groups of test scores.  The relative positions of elements within the two 
-variables match (i.e., 'Joseph' is the first element in students; his scores are the first value in scores.).
+// U3.W8-9: Gradebook from Names and Scores
 
-Do not alter the students and scores code.
+// You will work with the following two variables.  The first, students, holds the names of four students.  
+// The second, scores, holds groups of test scores.  The relative positions of elements within the two 
+// variables match (i.e., 'Joseph' is the first element in students; his scores are the first value in scores.).
 
-I worked on this challenge [by myself, with:]
+// Do not alter the students and scores code.
 
-*/
+// I worked on this challenge [by myself, with:]
+
+
 
 var students = ["Joseph", "Susan", "William", "Elizabeth"]
 
@@ -30,9 +30,28 @@ var scores = [ [80, 70, 70, 100],
 
 
 
-
-// __________________________________________
-// Refactored Solution
+var average = function(myAvg) {
+    var sumArry = 0;
+    for (i in myAvg) {
+        sumArry += myAvg[i];
+    }
+    return sumArry / myAvg.length;
+};
+ 
+var gradebook = {
+    Elizabeth: {
+        testScores: scores[4]
+    },
+    William: {
+        testScores: scores[2]
+    },
+    addScore: function(name, score) {
+        gradebook[name].testScores.push(score)
+    }
+ 
+};
+gradebook.addScore("Elizabeth", 80)
+gradebook.addScore("Susan", 80)
 
 
 
@@ -43,6 +62,14 @@ var scores = [ [80, 70, 70, 100],
 
 // __________________________________________
 // Reflect
+// The instructions to this problem were clear and helped me figure out what I was supposed to be
+// creating. This reminds me of some of the first few excercises we did when starting phase 0. 
+// things are getting clearer and I am starting to understand much of the oncepts more vividly, but I
+// worry if I am taking too much time to figure things out. I will find myself googling a lot of the basic 
+// concepts again because I have forgotten some of them over the weeks. It is getting easier to see 
+// the differences in each language we have learened. That was something I worried about earlier on,
+// but after working on html, css, ruby, and now java script, I can feel my self becoming more confortable 
+// in telling the difference. I have to keep practicing though. I know that if I stop I will have issues remembering.
 
 
 
