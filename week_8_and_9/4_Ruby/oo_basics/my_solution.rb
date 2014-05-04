@@ -1,7 +1,7 @@
 # U3.W8-9: OO Basics: Student
 
 
-# I worked on this challenge [by myself].
+# I worked on this challenge [With John Quigley:].
 
 # 2. Pseudocode
 # create a class Student. 

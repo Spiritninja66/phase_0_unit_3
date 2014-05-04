@@ -1,7 +1,7 @@
 # U3.W8-9: Reverse Words
 
 
-# I worked on this challenge [by myself ].
+# I worked on this challenge [with John Quigley: ].
 
 # 2. Pseudocode
 # define random word for the word that will be reversed.
