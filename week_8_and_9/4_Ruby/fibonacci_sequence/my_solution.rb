@@ -9,25 +9,34 @@
 
 # 3. Initial Solution
 
-def is_fibonacci?(n)
-  return  n  if ( 0..1 ).include? n
-  ( fibonacci( n - 1 ) + fibonacci( n - 2 ) )
+def is_fibonacci?(i)
+sequence = [0,1]
+ 
+  while sequence.last < i
+    x = sequence.pop
+    y = sequence.pop
+    z = x + y
+    sequence << x
+    sequence << z
+  end
+ 
+  if sequence.last == i
+    true
+  else
+    false
+  end
 end
-puts fibonacci( 5 )
-
-
-
-# 4. Refactored Solution
-
-
-
-
 
 
 # 1. DRIVER TESTS GO BELOW THIS LINE
 
-
-
+p is_fibonacci?(0)
+p is_fibonacci?(1)
+p is_fibonacci?(2)
+p is_fibonacci?(3)
+p is_fibonacci?(5)
+p is_fibonacci?(6)
+p is_fibonacci?(8)
 
 
 

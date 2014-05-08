@@ -1,6 +1,6 @@
 // U3.W8-9: Gradebook from Names and Scores
 
-// I worked on this challenge [by myself, with:]
+// I worked on this challenge [by myself]
 
 // These are the votes cast by each student. Do not alter these objects here.
 var votes = {
@@ -68,15 +68,28 @@ var officers = {
 
 // __________________________________________
 // Initial Solution
+for (voter in votes) {
+  var vote = votes[voter];
+  for (position in vote) {
+    officer = vote[position];
+    voteCount[position][officer] = ++voteCount[position][officer] || 1;
+  }
+}
+ 
+for (position in voteCount) {
+  var tally = voteCount[position], max = 0, officer;
+  for (name in tally) {
+    if (tally[name] > max) {
+      max = tally[name];
+      officer = name;
+    }
+  }
+  officers[position] = officer;
+}
 
 
 
 
-
-
-
-// __________________________________________
-// Refactored Solution
 
 
 
