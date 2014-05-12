@@ -1,1 +1,2 @@
-help!
+I was worried about this assignment a little. I kept things pretty simple. I went back to week 7 and
+checked out the instructions again. SQl is simple but I have been busy with work these last few weeks so I feel that I am not as competent in SQL as the rest of the languages I have learnt. I am really happy
